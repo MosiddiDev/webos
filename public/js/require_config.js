@@ -9,4 +9,4 @@ requirejs.config({
     }
 });
 
-requirejs(['js/system']);
+requirejs(['js/core']);

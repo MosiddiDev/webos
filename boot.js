@@ -7,7 +7,7 @@ app.use(express.static(__dirname + '/public'));
 app.use(express.static(__dirname + '/node_modules'));
 
 app.get('/', function(request, response) {
-  response.sendfile('./public/html/system.html');
+  response.sendfile('./public/html/core.html');
 });
 
 app.listen(app.get('port'), function() {
